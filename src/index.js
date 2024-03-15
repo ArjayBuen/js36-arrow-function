@@ -18,9 +18,8 @@ console.log(example);
 const newNumbers = numbers.map(x=> x * 2);
 console.log(newNumbers);
 //////Filter - Create a new array by keeping the items that return true.
-// const newNumbers = numbers.filter(function(num) {
-//   return num < 10;
-// });
+const lessThanTen = numbers.filter(num=> num < 10);
+console.log(lessThanTen);
 
 //Reduce - Accumulate a value by doing something to each item in an array.
 // var newNumber = numbers.reduce(function (accumulator, currentNumber) {
