@@ -22,9 +22,10 @@ const lessThanTen = numbers.filter(num=> num < 10);
 console.log(lessThanTen);
 
 //Reduce - Accumulate a value by doing something to each item in an array.
-// var newNumber = numbers.reduce(function (accumulator, currentNumber) {
-//     return accumulator + currentNumber;
-// })
+var sum = numbers.reduce( (accumulator, currentNumber) =>
+     accumulator + currentNumber
+);
+console.log(sum);
 
 ////Find - find the first item that matches from an array.
 // const newNumber = numbers.find(function (num) {
