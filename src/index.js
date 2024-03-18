@@ -31,6 +31,5 @@ console.log(sum);
 const greaterThanTen = numbers.find(num=>num > 10);
 console.log(greaterThanTen);
 ////FindIndex - find the index of the first item that matches.
-// const newNumber = numbers.findIndex(function (num) {
-//   return num > 10;
-// })
+const indexGreaterThanTen = numbers.findIndex( num => num > 10 );
+console.log(indexGreaterThanTen);
